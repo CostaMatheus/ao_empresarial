@@ -1,0 +1,179 @@
+.item-menu>a {
+  color:white;
+}
+
+@media screen and (min-width: 1366px) {
+.item-menu {
+  display:inline;
+  width:12.5%;
+  float:left;
+  text-align:center;
+  padding-top:30px;
+}
+.icone-menu {
+  font-size:32px;
+}
+.descricao-item {
+display:none;
+}
+#fechar {
+  display:none;
+}
+
+#fechar>a {
+  width:50%;
+  float:left;
+  color:#fff;
+}
+#sair:hover #fechar {
+  position:absolute;
+  top:0px;
+  right:12.5%;
+  height:120px;
+  padding-top:30px;
+  background:#003;
+  color:#f66;
+  display:block;
+  width:29%;
+  box-shadow:-8px 0px 12px #fff;
+}
+}
+
+@media screen and (min-width:1024px) and (max-width:1365px) {
+.item-menu {
+  display:inline;
+  width:12.5%;
+  float:left;
+  text-align:center;
+  padding-top:30px;
+}
+.icone-menu {
+  font-size:32px;
+}
+.descricao-item {
+display:none;
+}
+#fechar {
+  display:none;
+}
+#fechar>a {
+  width:50%;
+  float:left;
+  color:#fff;
+}
+#sair:hover #fechar {
+  position:absolute;
+  top:0px;
+  right:12.5%;
+  height:120px;
+  padding-top:30px;
+  background:#003;
+  color:#f66;
+  display:block;
+  width:29%;
+  box-shadow:-8px 0px 12px #fff;
+}
+}
+
+@media screen and (min-width:800px) and (max-width:1023px) {
+#caixa-menu {
+  width:100%;
+  height:700px;
+  background:#333;
+  display:none;
+}
+.item-menu {
+  display:inline-block;
+  width:33%;
+  height:180px;
+  float:left;
+  text-align:center;
+  padding-top:30px;
+}
+.icone-menu {
+  font-size:32px;
+}
+#item-sair {
+  display:none;
+}
+#sair {
+  width:95%;
+}
+#fechar>a{
+  color:#4a4;
+  font-weight:bold;
+}
+#fechar-tudo, #fechar-sessao {
+  width:50%;
+  float:left;
+  text-align:center;
+  padding:15px;
+}
+}
+
+@media screen and (min-width:512px) and (max-width: 799px) {
+#caixa-menu {
+  width:100%;
+  height:700px;
+  background:#333;
+  display:none;
+}
+.item-menu {
+  display:inline-block;
+  width:33%;
+  height:180px;
+  float:left;
+  text-align:center;
+}
+.icone-menu {
+  font-size:24px;
+}
+#sair {
+  width:90%;
+}
+#fechar>a{
+  color:#4a4;
+  font-weight:bold;
+}
+#item-sair {
+  display:none;
+}
+#fechar-tudo, #fechar-sessao {
+  width:50%;
+  float:left;
+  text-align:center;
+  padding:15px;
+}
+}
+
+@media screen and (max-width:511px) {
+#caixa-menu {
+  width:100%;
+  background:#333;
+  display:none;
+}
+.item-menu {
+  display:inline-block;
+  width:100%;
+}
+.icone-menu {
+  font-size:32px;
+}
+.titulo-item {
+  float:right;
+  margin-right:50px;
+}
+.descricao-item {
+  border-bottom:1px dotted #fff;
+  margin-right:50px;
+}
+#fechar-sessao, #fechar-tudo {
+  width:100%;
+}
+#fechar>a {
+  color:#fff;
+}
+#item-sair {
+  display:none;
+}
+}
